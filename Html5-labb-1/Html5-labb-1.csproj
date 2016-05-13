@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Video\MrBean.mp4" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -79,6 +80,10 @@
     <Content Include="Images\netflix.PNG" />
     <Content Include="Images\sofa.PNG" />
     <Content Include="index.html" />
+    <Content Include="sound.html" />
+    <Content Include="Sounds\NeonHeart-EndlessGrace.mp3" />
+    <Content Include="sound_loop.html" />
+    <Content Include="video.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
