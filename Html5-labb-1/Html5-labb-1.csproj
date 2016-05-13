@@ -76,6 +76,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="html5.html" />
     <Content Include="Images\ned.PNG" />
     <Content Include="Images\netflix.PNG" />
     <Content Include="Images\sofa.PNG" />
