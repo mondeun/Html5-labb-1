@@ -21,16 +21,33 @@
     </nav>
 </header>
 <article>
-    <h2>Teknisk förklaring</h2>
-    <p>Hur funkar det att strukturera upp en hemsida?</p>
-    <section>
-        <h3>Taggar</h3>
-        <p>...</p>
-    </section>
-    <section>
-        <h3>Vad gör webbläsaren?</h3>
-        <p>...</p>
-    </section>
+    <h2>Hur funkar det att strukturera upp en hemsida?</h2>
+    <p>Hemsidor är egentligen inget annat än dokument som en webbläsare läser av. Strukturen på en hemsida dikteras av dess html.</p>
+    <h3>Taggar</h3>
+    <p>All html läggs inom taggen <code>html</code>. Den är uppdelad i två delar, <code>head</code> och <code>body</code>.
+    </p>
+    <p>
+        <code><b>Head:</b></code> Här lägger man all information om hemsidan. Titel(<code>title</code>), referenser till filer som ska laddas in(css och js).
+        Man lägger även metadata här för webbläsare och nätspindlar att läsa. Vanlig meta är oftast dessa i listan.
+    </p>
+    <ul>
+        <li>Teckenuppsättning</li>
+        <li>Författare</li>
+        <li>Kort beskrivning</li>
+        <li>Nyckelord</li>
+    </ul>
+    <p>
+        <code><b>Body:</b></code> Det som presenteras på hemsidan. Det börjar oftast med en <code>header</code> med ett <code>nav</code> i vars primärfunktion är navigation på hemsidan.
+        Rubriker sätts i ett hierarki precis som i ett textdokument. Dessa sätt ej efter deras storlek, utan de definierar vilken rang av underrubriker det handlar om.
+    </p>
+    <ul>
+        <li><code>h1</code> - Heading 1</li>
+        <li><code>h2</code> - Heading 2</li>
+        <li><code>h3</code> - Heading 3</li>
+        <li><code>h4</code> - Heading 4</li>
+        <li>osv...</li>
+    </ul>
+    <p>Text brukar oftast läggas inom taggen <code>p</code>.</p>
 </article>
 </body>
 </html>
