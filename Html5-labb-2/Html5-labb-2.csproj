@@ -75,6 +75,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\5_1_system.JPG" />
+    <Content Include="Images\hbo_nordic.JPG" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -82,7 +84,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Pages\" />
   </ItemGroup>
   <PropertyGroup>
