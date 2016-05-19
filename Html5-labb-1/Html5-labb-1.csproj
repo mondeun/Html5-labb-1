@@ -76,15 +76,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="html5.html" />
+    <Content Include="Pages\html5.html" />
     <Content Include="Images\ned.PNG" />
     <Content Include="Images\netflix.PNG" />
     <Content Include="Images\sofa.PNG" />
     <Content Include="index.html" />
-    <Content Include="sound.html" />
+    <Content Include="Pages\sound.html" />
     <Content Include="Sounds\NeonHeart-EndlessGrace.mp3" />
-    <Content Include="sound_loop.html" />
-    <Content Include="video.html" />
+    <Content Include="Pages\sound_loop.html" />
+    <Content Include="Pages\video.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
