@@ -67,7 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\ned.PNG" />
-    <Content Include="order.html" />
+    <Content Include="Pages\order.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,14 +80,14 @@
     <Content Include="Images\5_1_system.JPG" />
     <Content Include="Images\hbo_nordic.JPG" />
     <Content Include="index.html" />
+    <Content Include="Pages\recipe.html" />
+    <Content Include="Scripts\orders.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pages\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
