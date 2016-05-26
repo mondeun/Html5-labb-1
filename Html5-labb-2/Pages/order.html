@@ -36,11 +36,26 @@
         <fieldset>
             <legend>Fill in your information</legend>
             <fieldset>
-                <legend>Contact Information</legend>
-                <input type="text" required name="fname" placeholder="Enter your first name"/>
-                <input type="text" required name="lname" placeholder="Enter your last name"/>
-                <input type="submit" name="submitBtn" value="Order"/>
+                <legend>user Information</legend>
+                <label>Username:</label>
+                <input type="text" required name="username" placeholder="Enter your user name"/>
+                <label>Email:</label>
+                <input type="email" required name="email" placeholder="Enter your email"/>
+                <label>Password:</label>
+                <input type="password" required name="password" placeholder="Enter your password"/>
             </fieldset>
+            <fieldset>
+                <legend>Delivery Adress</legend>
+                <label>name:</label>
+                <input type="text" required name="dname" placeholder="Enter your name"/>
+                <label>Street:</label>
+                <input type="text" required name="dstreet" placeholder="Enter your street"/>
+                <label>Zip:</label>
+                <input type="text" required name="dzip" placeholder="Enter your zip code"/>
+                <label>City:</label>
+                <input type="text" required name="dcity" placeholder="Enter your city"/>
+            </fieldset>
+            <input type="submit" name="submitBtn" value="Order" />
         </fieldset>
     </form>
 </body>
