@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\ned.PNG" />
+    <Content Include="Pages\form1.html" />
     <Content Include="Pages\order.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
