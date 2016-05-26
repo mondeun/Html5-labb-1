@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <meta charset="utf-8"/>
+    <title>Order</title>
+    <meta charset="utf-8" />
     <script src="../Scripts/orders.js"></script>
 </head>
 <body>
@@ -10,20 +10,38 @@
         <h1>Order Details</h1>
         <fieldset>
             <legend>Order</legend>
-            <p>Item ordered:
-            <script>document.write(searchToObject(location.search)['product']);</script></p>
-            <p>Unit Price:
-            <script>document.write(searchToObject(location.search)['price']);</script>:-</p>
-            <p>Quantity:
-            <script>document.write(searchToObject(location.search)['numOrder']);</script></p>
+            <p>
+                Item ordered:
+                <script>document.write(searchToObject(location.search)['product']);</script>
+            </p>
+            <p>
+                Unit Price:
+                <script>document.write(searchToObject(location.search)['price']);</script>:-
+            </p>
+            <p>
+                Quantity:
+                <script>document.write(searchToObject(location.search)['numOrder']);</script>
+            </p>
             <p>
                 Total Price: <b>
-                    <script>document.write(parseFloat(searchToObject(location.search)['price']) *
-                            parseFloat(searchToObject(location.search)['numOrder']));</script>:-
+                    <script>
+                            document.write(parseFloat(searchToObject(location.search)['price']) *
+                            parseFloat(searchToObject(location.search)['numOrder']));
+                </script>:-
                 </b>
             </p>
         </fieldset>
     </header>
-
+    <form action="recipe.html">
+        <fieldset>
+            <legend>Fill in your information</legend>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <input type="text" required name="fname" placeholder="Enter your first name"/>
+                <input type="text" required name="lname" placeholder="Enter your last name"/>
+                <input type="submit" name="submitBtn" value="Order"/>
+            </fieldset>
+        </fieldset>
+    </form>
 </body>
 </html>

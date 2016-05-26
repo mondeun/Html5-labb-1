@@ -1,13 +1,20 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <meta charset="utf-8" />
+    <title>Recipe</title>
+    <meta charset="utf-8"/>
+    <script src="../Scripts/orders.js"></script>
 </head>
 <body>
 <header>
     <h1>Order Successful!</h1>
-    <p>Thank you for ordering.</p>
+    <p>
+        Thank you
+        <script>
+            document.write(searchToObject(location.search)['fname'] + ' ' + 
+                searchToObject(location.search)['lname']);
+        </script> for ordering.
+    </p>
 </header>
 </body>
 </html>
