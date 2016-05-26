@@ -2,17 +2,56 @@
 <html>
 <head>
     <title>Recipe</title>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <script src="../Scripts/orders.js"></script>
 </head>
 <body>
-<header>
-    <h1>Order Successful!</h1>
-    <p>
-        Thank you
-        <script>document.write(searchToObject(location.search)['name']);</script> 
-        for ordering.
-    </p>
-</header>
+    <header>
+        <h1>Order Successful!</h1>
+        <p>
+            Thank you
+            <script>document.write(searchToObject(location.search)['username']);</script>
+            for your order.
+        </p>
+        <fieldset>
+            <legend>Order</legend>
+            Item ordered:
+            <script>document.write(searchToObject(location.search)['product']);</script>
+            <br />
+            Unit Price:
+            <script>document.write(searchToObject(location.search)['price']);</script>:-
+            <br />
+            Quantity:
+            <script>document.write(searchToObject(location.search)['quantity']);</script>
+            <br />
+            Total Price: <b>
+                <script>
+                    document.write(parseFloat(searchToObject(location.search)['price']) *
+                        parseFloat(searchToObject(location.search)['quantity']));
+                </script>:-
+            </b>
+        </fieldset>
+        <fieldset>
+            <legend>Delivery Information</legend>
+            <script>
+                document.write(searchToObject(location.search)['dname'] + "<br />");
+                document.write(searchToObject(location.search)['dphone'] + "<br />")
+                document.write(searchToObject(location.search)['dstreet'] + "<br />");
+                document.write(searchToObject(location.search)['dzip'] + "<br />");
+                document.write(searchToObject(location.search)['dcity']);
+            </script>
+        </fieldset>
+        <fieldset>
+            <legend>Payment Information</legend>
+            <script>
+                document.write(searchToObject(location.search)['pname'] + "<br />");
+                document.write(searchToObject(location.search)['pphone'] + "<br />")
+                document.write(searchToObject(location.search)['pstreet'] + "<br />");
+                document.write(searchToObject(location.search)['pzip'] + "<br />");
+                document.write(searchToObject(location.search)['dcity'] + "<br />");
+                document.write("Project: " + searchToObject(location.search)['pproject']);
+            </script>
+        </fieldset>
+    </header>
 </body>
 </html>

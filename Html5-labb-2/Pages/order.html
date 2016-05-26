@@ -10,53 +10,78 @@
         <h1>Order Details</h1>
         <fieldset>
             <legend>Order</legend>
-            <p>
-                Item ordered:
-                <script>document.write(searchToObject(location.search)['product']);</script>
-            </p>
-            <p>
-                Unit Price:
-                <script>document.write(searchToObject(location.search)['price']);</script>:-
-            </p>
-            <p>
-                Quantity:
-                <script>document.write(searchToObject(location.search)['numOrder']);</script>
-            </p>
-            <p>
-                Total Price: <b>
-                    <script>
-                            document.write(parseFloat(searchToObject(location.search)['price']) *
-                            parseFloat(searchToObject(location.search)['numOrder']));
+            Item ordered:
+            <script>document.write(searchToObject(location.search)['product']);</script>
+            <br />
+            Unit Price:
+            <script>document.write(searchToObject(location.search)['price']);</script>:-
+            <br />
+            Quantity:
+            <script>document.write(searchToObject(location.search)['quantity']);</script>
+            <br />
+            Total Price: <b>
+                <script>
+                    document.write(parseFloat(searchToObject(location.search)['price']) *
+                        parseFloat(searchToObject(location.search)['quantity']));
                 </script>:-
-                </b>
-            </p>
+            </b>
         </fieldset>
     </header>
-    <form action="recipe.html">
+<form action="recipe.html">
+    <fieldset>
+        <legend>Fill in your information</legend>
         <fieldset>
-            <legend>Fill in your information</legend>
-            <fieldset>
-                <legend>user Information</legend>
-                <label>Username:</label>
-                <input type="text" required name="username" placeholder="Enter your user name"/>
-                <label>Email:</label>
-                <input type="email" required name="email" placeholder="Enter your email"/>
-                <label>Password:</label>
-                <input type="password" required name="password" placeholder="Enter your password"/>
-            </fieldset>
-            <fieldset>
-                <legend>Delivery Adress</legend>
-                <label>name:</label>
-                <input type="text" required name="dname" placeholder="Enter your name"/>
-                <label>Street:</label>
-                <input type="text" required name="dstreet" placeholder="Enter your street"/>
-                <label>Zip:</label>
-                <input type="text" required name="dzip" placeholder="Enter your zip code"/>
-                <label>City:</label>
-                <input type="text" required name="dcity" placeholder="Enter your city"/>
-            </fieldset>
-            <input type="submit" name="submitBtn" value="Order" />
+            <legend>user Information</legend>
+            <label>Username:</label>
+            <input type="text" required name="username" placeholder="Enter your user name"/>
+            <label>Email:</label>
+            <input type="email" required name="email" placeholder="Enter your email"/>
+            <label>Password:</label>
+            <input type="password" required name="password" placeholder="Enter your password"/>
         </fieldset>
-    </form>
+        <fieldset>
+            <legend>Delivery Address</legend>
+            <label>name:</label>
+            <input type="text" required name="dname" placeholder="Enter your name"/>
+            <label>Street:</label>
+            <input type="text" required name="dstreet" placeholder="Enter your street"/>
+            <label>Zip:</label>
+            <input type="text" required name="dzip" placeholder="Enter your zip code"/>
+            <label>City:</label>
+            <input type="text" required name="dcity" placeholder="Enter your city"/>
+            <label>Phone:</label>
+            <input type="tel" required name="dphone" placeholder="enter your phone number"/>
+        </fieldset>
+        <fieldset>
+            <legend>Payment address</legend>
+            <label>name:</label>
+            <input type="text" required name="pname" placeholder="Enter your name"/>
+            <label>Street:</label>
+            <input type="text" required name="pstreet" placeholder="Enter your street"/>
+            <label>Zip:</label>
+            <input type="text" required name="pzip" placeholder="Enter your zip code"/>
+            <label>City:</label>
+            <input type="text" required name="pcity" placeholder="Enter your city"/>
+            <label>Phone:</label>
+            <input type="tel" required name="pphone" placeholder="enter your phone number"/>
+            <label>Project number:</label>
+            <input type="text" required name="pproject" placeholder="Enter your project number"/>
+        </fieldset>
+        <input type="hidden" name="product" id="iproduct"/>
+        <input type="hidden" name="quantity" id="iquantity"/>
+        <input type="hidden" name="price" id="iprice"/>
+        <input type="submit" name="submitBtn" value="Order"/>
+    </fieldset>
+</form>
+<script>
+    var product = document.getElementById("iproduct");
+    product.value = searchToObject(location.search)['product'];
+
+    var quantity = document.getElementById("iquantity");
+    quantity.value = searchToObject(location.search)['quantity'];
+
+    var price = document.getElementById("iprice");
+    price.value = searchToObject(location.search)['price'];
+</script>
 </body>
 </html>
