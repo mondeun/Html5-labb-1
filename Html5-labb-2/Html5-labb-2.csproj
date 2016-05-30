@@ -68,6 +68,7 @@
   <ItemGroup>
     <Content Include="Images\chromecast.JPG" />
     <Content Include="Images\ned.PNG" />
+    <Content Include="Images\seinfeld.JPG" />
     <Content Include="Images\tv.JPG" />
     <Content Include="Pages\form2.html" />
     <Content Include="Pages\form1.html" />
