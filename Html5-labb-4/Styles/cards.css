@@ -1,0 +1,24 @@
+﻿body {
+    background: #00bfff;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.card figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card .back {
+    background-color: honeydew;
+}
+
