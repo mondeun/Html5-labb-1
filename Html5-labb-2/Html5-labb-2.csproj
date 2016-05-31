@@ -73,6 +73,8 @@
     <Content Include="Pages\form2.html" />
     <Content Include="Pages\form1.html" />
     <Content Include="Pages\form3.html" />
+    <Content Include="Pages\form4.html" />
+    <Content Include="Pages\form5.html" />
     <Content Include="Pages\order.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
