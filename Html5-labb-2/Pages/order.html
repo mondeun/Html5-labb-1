@@ -33,7 +33,7 @@
         <fieldset>
             <legend>user Information</legend>
             <label>Username:</label>
-            <input type="text" required name="username" placeholder="Enter your user name"/>
+            <input type="text" required autofocus name="username" placeholder="Enter your user name"/>
             <label>Email:</label>
             <input type="email" required name="email" placeholder="Enter your email"/>
             <label>Password:</label>
@@ -41,8 +41,8 @@
         </fieldset>
         <fieldset>
             <legend>Delivery Address</legend>
-            <label>name:</label>
-            <input type="text" required name="dname" placeholder="Enter your name"/>
+            <label for="idname">name:</label>
+            <input type="text" id="idname" required name="dname" placeholder="Enter your name"/>
             <label>Street:</label>
             <input type="text" required name="dstreet" placeholder="Enter your street"/>
             <label>Zip:</label>
