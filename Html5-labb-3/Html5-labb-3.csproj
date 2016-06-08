@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assigment-2.html" />
     <Content Include="assigment-1.html" />
     <Content Include="assigment-3.html" />
     <Content Include="packages.config" />
@@ -77,6 +78,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Styles\assignment2.css" />
     <Content Include="Styles\assignment3.css" />
     <Content Include="Styles\assignment1.css" />
     <Content Include="Web.config" />
