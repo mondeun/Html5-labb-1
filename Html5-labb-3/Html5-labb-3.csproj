@@ -77,7 +77,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\assigment3.css" />
+    <Content Include="Styles\assignment3.css" />
+    <Content Include="Styles\assignment1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
