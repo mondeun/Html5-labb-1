@@ -1,4 +1,14 @@
-﻿@media screen and (max-width: 479px) {
+﻿ul {
+    list-style-type: none;
+}
+
+ul li {
+    border: 1px solid black;
+    margin: 1px;
+    color: black;
+}
+
+@media screen and (max-width: 479px) {
     #phone {
         display: inherit;
     }
