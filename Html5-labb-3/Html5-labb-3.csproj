@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Styles\assignment2.css" />
+    <Content Include="Styles\assignment4.css" />
     <Content Include="Styles\assignment3.css" />
     <Content Include="Styles\assignment1.css" />
     <Content Include="Web.config" />

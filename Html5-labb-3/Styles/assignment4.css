@@ -1,0 +1,42 @@
+﻿@media screen and (max-width: 479px) {
+    #phone {
+        display: inherit;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #screen {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: inherit;
+    }
+
+    #screen {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #screen {
+        display: inherit;
+    }
+}
+
