@@ -12,15 +12,28 @@
 }
 
 .shell {
-    width: 275px;
+    width: 240px;
     height: 475px;
+    margin-left: auto;
+    margin-right: auto;
     background: white;
     border: 2px groove gray;
     border-radius: 15%/8%;
 }
 
 .shell .top {
-    height: 15%;
+    height: 10%;
+}
+
+.shell .top .front-camera {
+    width: 10px;
+    height: 10px;
+    background: darkgray;
+    border: 2px groove gray;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
 
 .shell .screen {
@@ -28,6 +41,35 @@
     background: aquamarine;
     margin-left: 8px;
     margin-right: 8px;
+    border: 2px groove darkgray;
+}
+
+.screen .info-bar {
+    height: 18px;
+    display: block;
+    background: rgba(0, 0, 0, 0.75);
+    font-family: arial;
+    color: white;
+    display: block;
+    position: relative;
+}
+
+.info-bar .operator {
+    width: 73px;
+    text-align: left;
+    float: left;
+}
+
+.info-bar .clock {
+    width: 72px;
+    text-align: center;
+    float: left;
+}
+
+.info-bar .battery {
+    width: 72px;
+    text-align: right;
+    float: left;
 }
 
 .shell .bottom {
