@@ -18,7 +18,7 @@
 @media screen and (min-width: 480px) {
     body {
         background-color: red;
-    }
+    }   
     #phone {
         display: none;
     }

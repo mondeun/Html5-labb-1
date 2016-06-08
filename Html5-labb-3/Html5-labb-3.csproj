@@ -66,9 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assigment-2.html" />
-    <Content Include="assigment-1.html" />
-    <Content Include="assigment-3.html" />
+    <Content Include="assignment-2.html" />
+    <Content Include="assignment-1.html" />
+    <Content Include="assignment-3.html" />
+    <Content Include="assignment-4.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
