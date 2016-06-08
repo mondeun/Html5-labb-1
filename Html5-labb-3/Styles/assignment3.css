@@ -1,5 +1,16 @@
-﻿@media screen and (min-width: 480px) {
+﻿@media screen and (max-width: 479px) {
     body {
         background-color: hotpink;
+    }
+    #phone {
+        display: inherit;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #screen {
+        display: none;
     }
 }
