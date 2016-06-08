@@ -1,0 +1,34 @@
+﻿#wrapper {
+    margin: 20px;
+    position: relative;
+}
+
+.post-it {
+    float: left;
+    margin: 20px;
+    background: #ffffa5;
+    width:250px; 
+    height:150px;
+    padding: 15px;
+    font-family: "rock salt", cursive;
+    box-shadow: 2px 4px 6px #444;
+    transform: rotate(-5deg);
+}
+
+.post-it:hover {
+    width: 300px;
+    height: auto;
+    background: greenyellow;
+    transition: ease 0.5s;
+    transform-style: preserve-3d;
+    transform: rotate(5deg);
+    word-break: keep-all;
+}
+
+.post-it:hover .hidden {
+    visibility: visible;
+}
+
+.post-it .hidden {
+    visibility: hidden;
+}
