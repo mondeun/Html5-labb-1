@@ -2,6 +2,10 @@
     background-color: bisque;
 }
 
+header {
+    border-bottom: 1px solid gray;
+}
+
 h1 {
     text-align: center;
 }
@@ -13,8 +17,15 @@ ul {
 ul li {
     border: 1px solid black;
     margin: 2px;
-    padding: 2px;
+    padding: 3px;
     text-align: center;
+    background-color: gainsboro;
+    border-radius: 5%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 479px) {
