@@ -1,6 +1,6 @@
 ﻿@media screen and (max-width: 479px) {
     body {
-        background-color: hotpink;
+        background-color: darkmagenta;
     }
     #phone {
         display: inherit;
@@ -14,3 +14,39 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: red;
+    }
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: inherit;
+        color: green;
+    }
+
+    #screen {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: gray;
+    }
+    #phone {
+        display: none;
+    }
+
+    #tablet {
+        display: none;
+    }
+
+    #screen {
+        display: inherit;
+    }
+}
+
