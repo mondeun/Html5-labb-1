@@ -52,13 +52,14 @@
     margin-left: 8px;
     margin-right: 8px;
     border: 2px groove darkgray;
+    font-family: arial;
 }
 
 .screen .info-bar {
     height: 18px;
     display: block;
     background: rgba(0, 0, 0, 0.75);
-    font-family: arial;
+    padding: 1px;
     color: white;
     display: block;
     position: relative;
