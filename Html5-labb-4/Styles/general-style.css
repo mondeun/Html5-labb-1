@@ -1,0 +1,22 @@
+﻿body {
+    padding-top: 30px;
+    background-image: url("../Images/background_ocean.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+#lead-text {
+    text-align: center
+}
+
+ #end-footer {
+     margin-top: 15px;
+ }
+
+ .text-box {
+     padding: 5px;
+     background: rgba(255, 255, 255, 0.5);
+ }

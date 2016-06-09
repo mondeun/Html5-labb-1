@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../Styles/index.css" rel="stylesheet" />
+    <link href="../Styles/general-style.css" rel="stylesheet" />
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only glyphicon glyphicon-menu-hamburger">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -22,20 +22,35 @@
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="gallery.html">Gallery</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="game.html">Game</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
-    </nav>
+    </nav> <!--nav-->
+
     <div class="container">
-        <h1>Hello world</h1>
-        <p class="lead">Welcome to Malé. The maldives capital island.</p>
-        <footer class="panel-footer">
-            Hello
-        </footer>
+        <div class="row">
+            <div class="col-sm-12"></div>
+        </div>
+        <div class="page-header text-box">
+            <h1>Gallery</h1>
+            <p class="lead" id="lead-text">Here you find pictures of this beautiful Island.</p>
+        </div>
+        <div class="container">
+            content goes here
+        </div>
+        <div class="container-fluid">
+            <footer class="footer" id="end-footer">
+                <div class="row text-box">
+                    <p class="text">&copy; 2016 Kenneth Glawe</p>
+                </div>
+            </footer>
+        </div>
     </div>
-    <script src="Scripts/jquery-1.9.1.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/jquery-1.9.1.min.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
 </body>
 </html>

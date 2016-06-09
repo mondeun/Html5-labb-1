@@ -71,6 +71,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\background_ocean.jpg" />
     <Content Include="Images\male-bysea.jpg" />
     <Content Include="Images\Male-overview.jpg" />
     <Content Include="Images\male-overview2.jpg" />
@@ -103,7 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Styles\cards.css" />
-    <Content Include="Styles\index.css" />
+    <Content Include="Styles\general-style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
