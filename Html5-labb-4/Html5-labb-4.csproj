@@ -108,6 +108,7 @@
     <Content Include="Styles\cards.css" />
     <Content Include="Styles\general-style.css" />
     <Content Include="Styles\video.css" />
+    <Content Include="Video\maldives2.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
