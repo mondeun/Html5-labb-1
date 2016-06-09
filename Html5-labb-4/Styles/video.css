@@ -5,4 +5,7 @@
      margin-right: auto;
      margin-bottom: 5px;
      display: block;
+     background: black;
+     border: 15px ridge black;
+     border-radius: 5%;
  }
