@@ -1,7 +1,8 @@
 ﻿ .video-player {
-     width: 430px;
-     height: 242px;
+     max-width: 640px;
+     max-height: 320px;
      margin-left: auto;
      margin-right: auto;
      margin-bottom: 5px;
+     display: block;
  }
