@@ -87,6 +87,8 @@
     <Content Include="Images\Male-overview.jpg" />
     <Content Include="Images\male-overview2.jpg" />
     <Content Include="Images\muraena.png" />
+    <Content Include="Images\nurseshark.png" />
+    <Content Include="Images\Stonefish.png" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
