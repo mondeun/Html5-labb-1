@@ -128,7 +128,7 @@
     top: 270px;
     transform: rotateY(180deg);
     animation-name: moveShark;
-    animation-duration: 6s;
+    animation-duration: 16s;
     animation-iteration-count: infinite;
 }
 
@@ -148,6 +148,14 @@
     100% {
         top: 270px;
     }
+}
+
+#stonefish {
+    width: 35px;
+    position: absolute;
+    left: 12px;
+    top: 465px;
+    transform: rotateY(180deg);
 }
 
 @media screen and (max-width: 991px) {
