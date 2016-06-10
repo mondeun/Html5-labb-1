@@ -97,6 +97,7 @@
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Scripts\contact.js" />
     <Content Include="Styles\contact.css" />
     <Content Include="Video\Maldive3.webm" />
     <None Include="Web.Debug.config">
