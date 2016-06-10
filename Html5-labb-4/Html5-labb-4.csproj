@@ -73,6 +73,10 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\background_ocean.jpg" />
+    <Content Include="Images\Gallery\img1.jpg" />
+    <Content Include="Images\Gallery\img2.jpg" />
+    <Content Include="Images\Gallery\img3.jpg" />
+    <Content Include="Images\Gallery\img4.jpg" />
     <Content Include="Images\maldive-night.jpg" />
     <Content Include="Images\male-bysea.jpg" />
     <Content Include="Images\Male-overview.jpg" />
