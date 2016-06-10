@@ -6,3 +6,19 @@
     margin-right: auto;
     display: block;
 }
+
+#form-contact {
+    border: 3px groove lightgray;
+
+    padding: 10px 10px 0px 5px;
+    margin: 5%;
+}
+
+#open-hours {
+    list-style-type: none;
+    display: inline;
+}
+
+#open-hours li {
+    text-align: center;
+}
