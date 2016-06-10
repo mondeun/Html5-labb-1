@@ -1,4 +1,6 @@
-﻿body {
+﻿@import url(https://fonts.googleapis.com/css?family=Yellowtail);
+
+body {
     padding-top: 30px;
     background-image: url("../Images/background_ocean.jpg");
     background-size: cover;
@@ -27,6 +29,11 @@ h2 {
 
  header:hover {
      text-shadow: 1px 0px 10px #d3d3d3;
-     transition: 0.5s ease-in;
-     -moz-transition: 0.5s ease-in;
+     transition: 0.2s ease-in;
+     -moz-transition: 0.2s ease-in;
+ }
+
+ .design-font {
+     font-family: 'Yellowtail', cursive;
+     font-size: 32px;
  }
