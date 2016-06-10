@@ -13,7 +13,7 @@
     height: 100%;
     margin: 0;
     transform-style: preserve-3d;
-    transition: all 1s;
+    transition: all ease-in-out 1s;
 }
 
 .front {
@@ -34,6 +34,7 @@
     padding: 10px;
     color: #aaa;
     background-color: white;
+    text-align: center;
 }
 
 .card:hover {
