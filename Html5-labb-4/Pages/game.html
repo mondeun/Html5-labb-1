@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="../Styles/general-style.css" rel="stylesheet" />
+    <link href="../Styles/game.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -42,13 +43,33 @@
             <p class="lead" id="lead-text">Swim with the fishes</p>
         </div>
 
-        <
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12 text-box">
                     <h2>How to play</h2>
-                    <p>Content goes here</p>
-                    <canvas id="game" width="800" height="600">Update your browser.</canvas>
+                    <p>Use the boxes to interact.</p>
+                    <div class="col-md-3">
+                        <label for="chkBox-muraena" class="control-label">Control the muraena</label>
+                        <input type="checkbox" id="chkBox-muraena"/>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="chkBox-diver">Control the diver</label>
+                        <input type="checkbox" id="chkBox-diver"/>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="chkBox-stone-fish">Control the stone fish</label>
+                        <input type="checkbox" id="chkBox-stone-fish"/>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="chkBox-shark">Control the Nurse shark</label>
+                        <input type="checkbox" id="chkBox-shark"/>
+                    </div>
+                        <div class="col-sm-12">
+                            <div class="aquarium img-responsive">
+                                <img id="muraena" src="../Images/muraena.png" alt="muraena"/>
+                                <img id="diver" src="../Images/diver.png" alt="diver" />
+                            </div>  
+                    </div>
                 </div>
             </div>
         </div>
